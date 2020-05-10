@@ -120,13 +120,7 @@ class LoginForm extends Component {
           onChange={this.onChange}
           required
         />
-        <Form.Button
-          content="Login"
-          primary
-          color="white"
-          disabled={disabled}
-          fluid
-        />
+        <Form.Button content="Login" primary disabled={disabled} fluid />
       </Form>
     );
   }
